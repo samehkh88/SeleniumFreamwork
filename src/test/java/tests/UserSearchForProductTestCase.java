@@ -1,21 +1,26 @@
 package tests;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.HomePage;
-import pages.UserloginPage;
+import pages.ProductdetalisPage;
+import pages.SearchPage;
 
 public class UserSearchForProductTestCase extends TestBase{
 
-	HomePage Home;
-	UserloginPage loginpage;
-	
+	private String productname = "Apple MacBook Pro 13-inch";
+
+
+	SearchPage search ;
+	ProductdetalisPage ProductDetalis;
+
 	@Test
 	public void UserCanSearchForProductSuccessfully()
 	{
-		Home = new HomePage(driver);
-		
-        Home.Searchforprodct("mac");
+		search = new SearchPage(driver);
+		search.Searchforprodct(productname);
+		ProductDetalis = new ProductdetalisPage(driver);
+		Assert.assertEquals(ProductDetalis.DetalisProductName.getText().toLowerCase(), productname.toLowerCase());
 	}
 }

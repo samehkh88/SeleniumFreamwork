@@ -1,7 +1,5 @@
 package pages;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,16 +23,7 @@ public class HomePage extends PageBase {
 	@FindBy(xpath = "//a[contains(@class,'ico-account')]")
 	public WebElement MyAccountLink;
 	
-	@FindBy(id = "small-searchterms")
-	 WebElement SearchBox;
-	
-	@FindBy(id = "ui-id-1")
-	 WebElement ProductSearchList;
-	
-	
-	@FindBy(xpath = "//input[@value='Search']")
-	 WebElement SearchButton;
-	
+
 	
 	
 	public void OpenRegisterPage()
@@ -57,11 +46,5 @@ public class HomePage extends PageBase {
 		ClickButtons(MyAccountLink);
 	}
 	
-	public void Searchforprodct(String searchValue) 
-	{
-		SendValue(SearchBox, searchValue);
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		SelectFromDrobDown(ProductSearchList, searchValue);
-		ClickButtons(SearchButton);
-	}
+
 }
