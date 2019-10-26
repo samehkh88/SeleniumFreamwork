@@ -6,6 +6,9 @@
 			<class name="tests.UserRegisterTestCase" />
 			<class name="tests.UserLoginTestCase" />
 			<class name="tests.UserSearchForProductTestCase" />
+			<class name="tests.UserSearchForProductAutoTestCase" />
+			<class name="tests.ContactUsTestCase" />
+			
 
 
 		</classes>

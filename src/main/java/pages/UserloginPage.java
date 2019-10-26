@@ -13,13 +13,13 @@ public class UserloginPage extends PageBase{
 	}
 	
 	@FindBy(id = "Email")
-	WebElement email;
+	private WebElement email;
 	
 	@FindBy(id ="Password")
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath = "//input[@value='Log in']")
-	WebElement LoginButton;
+	private WebElement LoginButton;
 	
 	public void UserCanLogin(String mail , String Password)
 	{

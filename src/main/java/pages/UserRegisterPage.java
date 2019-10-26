@@ -12,31 +12,31 @@ public class UserRegisterPage extends PageBase{
 		super(driver);
 	}
 	@FindBy(xpath = "//input[@value='M']")
-	WebElement Gender;
+	private WebElement Gender;
 
 	@FindBy(id = "FirstName")
-	WebElement FirstName;
+	private WebElement FirstName;
 
 	@FindBy(id = "LastName")
-	WebElement LastName;
+	private WebElement LastName;
 
 	@FindBy(xpath = "//select[@name='DateOfBirthDay']")
-	WebElement DayofBirth;
+	private WebElement DayofBirth;
 
 	@FindBy(xpath = "//select[@name='DateOfBirthMonth']")
-	WebElement MonthofBirth;
+	private WebElement MonthofBirth;
 
 	@FindBy(id = "Email")
-	WebElement Email;
+	private WebElement Email;
 
 	@FindBy(id = "Password")
-	WebElement Password;
+	private WebElement Password;
 
 	@FindBy(id = "ConfirmPassword")
-	WebElement ConfirmPassword;
+	private WebElement ConfirmPassword;
 
 	@FindBy(id = "register-button")
-	WebElement RegisterButton;
+	private WebElement RegisterButton;
 
 	@FindBy(className="result")
 	WebElement Result;

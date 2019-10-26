@@ -23,7 +23,8 @@ public class HomePage extends PageBase {
 	@FindBy(xpath = "//a[contains(@class,'ico-account')]")
 	public WebElement MyAccountLink;
 	
-
+	@FindBy(linkText = "Contact us")
+	public WebElement ContactUsPage ;
 	
 	
 	public void OpenRegisterPage()
@@ -45,6 +46,13 @@ public class HomePage extends PageBase {
 	{
 		ClickButtons(MyAccountLink);
 	}
+	
+	public void OpenContactpage()
+	{
+		Scroll();
+		ClickButtons(ContactUsPage);
+	}
+	
 	
 
 }
