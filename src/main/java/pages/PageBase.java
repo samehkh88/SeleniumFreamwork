@@ -10,6 +10,7 @@ public class PageBase {
 
 	protected WebDriver driver ;
 	protected JavascriptExecutor js ;
+	protected Select sel ;
 
 	// create constructor
 	public PageBase (WebDriver driver)
@@ -31,7 +32,7 @@ public class PageBase {
 
 	protected void SelectFromDrobDown(WebElement field , String value)
 	{
-		Select sel = new Select(field);
+		sel = new Select(field);
 		sel.selectByVisibleText(value);
 	}
 	

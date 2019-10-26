@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15496" started-at="2019-10-26T21:19:04Z" finished-at="2019-10-26T21:19:19Z">
+  <suite name="Default suite" duration-ms="8733" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15496" started-at="2019-10-26T21:19:04Z" finished-at="2019-10-26T21:19:19Z">
-      <class name="tests.SendProductToriendTestCase">
-        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="Startdriver" is-config="true" duration-ms="24242" started-at="2019-10-26T21:18:40Z" finished-at="2019-10-26T21:19:04Z">
+    <test name="Default test" duration-ms="8733" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:30Z">
+      <class name="tests.UserCanChangeCurrencyTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="Startdriver" is-config="true" duration-ms="12298" started-at="2019-10-26T22:20:09Z" finished-at="2019-10-26T22:20:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,71 +18,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
-        <test-method status="PASS" signature="UserCanloginSuccessfully()[pri:1, instance:tests.SendProductToriendTestCase@14acaea5]" name="UserCanloginSuccessfully" duration-ms="6573" started-at="2019-10-26T21:19:04Z" finished-at="2019-10-26T21:19:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanloginSuccessfully -->
-        <test-method status="PASS" signature="UserCanSearchForProductSuccessfully()[pri:2, instance:tests.SendProductToriendTestCase@14acaea5]" name="UserCanSearchForProductSuccessfully" duration-ms="5478" started-at="2019-10-26T21:19:11Z" finished-at="2019-10-26T21:19:16Z">
+        <test-method status="PASS" signature="UserCanSearchForProductSuccessfully()[pri:1, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="UserCanSearchForProductSuccessfully" duration-ms="7119" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchForProductSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T21:19:11Z" finished-at="2019-10-26T21:19:11Z">
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="16" started-at="2019-10-26T22:20:28Z" finished-at="2019-10-26T22:20:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanloginSuccessfully status=SUCCESS method=SendProductToriendTestCase.UserCanloginSuccessfully()[pri:1, instance:tests.SendProductToriendTestCase@14acaea5] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserCanChangeCurrencyTestCase.UserCanSearchForProductSuccessfully()[pri:1, instance:tests.UserCanChangeCurrencyTestCase@14acaea5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T21:19:16Z" finished-at="2019-10-26T21:19:16Z">
+        <test-method status="PASS" signature="UserChangeCurrency()[pri:2, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="UserChangeCurrency" duration-ms="1567" started-at="2019-10-26T22:20:29Z" finished-at="2019-10-26T22:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserChangeCurrency -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T22:20:30Z" finished-at="2019-10-26T22:20:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=SendProductToriendTestCase.UserCanSearchForProductSuccessfully()[pri:2, instance:tests.SendProductToriendTestCase@14acaea5] output={null}]]]>
+                <![CDATA[[TestResult name=UserChangeCurrency status=SUCCESS method=UserCanChangeCurrencyTestCase.UserChangeCurrency()[pri:2, instance:tests.UserCanChangeCurrencyTestCase@14acaea5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="sendToFriend()[pri:3, instance:tests.SendProductToriendTestCase@14acaea5]" name="sendToFriend" duration-ms="2326" started-at="2019-10-26T21:19:16Z" finished-at="2019-10-26T21:19:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendToFriend -->
-        <test-method status="PASS" signature="UserLogOut()[pri:4, instance:tests.SendProductToriendTestCase@14acaea5]" name="UserLogOut" duration-ms="1050" started-at="2019-10-26T21:19:18Z" finished-at="2019-10-26T21:19:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserLogOut -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T21:19:18Z" finished-at="2019-10-26T21:19:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sendToFriend status=SUCCESS method=SendProductToriendTestCase.sendToFriend()[pri:3, instance:tests.SendProductToriendTestCase@14acaea5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T21:19:19Z" finished-at="2019-10-26T21:19:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserLogOut status=SUCCESS method=SendProductToriendTestCase.UserLogOut()[pri:4, instance:tests.SendProductToriendTestCase@14acaea5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.SendProductToriendTestCase@14acaea5]" name="StopDriver" is-config="true" duration-ms="0" started-at="2019-10-26T21:19:20Z" finished-at="2019-10-26T21:19:20Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-10-26T22:20:30Z" finished-at="2019-10-26T22:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.SendProductToriendTestCase -->
+      </class> <!-- tests.UserCanChangeCurrencyTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

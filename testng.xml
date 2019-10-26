@@ -9,9 +9,8 @@
 			<class name="tests.UserSearchForProductAutoTestCase" />
 			<class name="tests.ContactUsTestCase" />
 			<class name="tests.SendProductToriendTestCase" />
+			<class name="tests.UserCanChangeCurrencyTestCase" />
 			
-			
-
 
 		</classes>
 	</test> <!-- Test -->
