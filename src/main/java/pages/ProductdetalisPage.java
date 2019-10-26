@@ -12,4 +12,14 @@ public class ProductdetalisPage extends PageBase{
 
 	@FindBy (xpath="//h1[@itemprop='name']")
 	public WebElement DetalisProductName ;
+
+	@FindBy (xpath="//input[@value='Email a friend']")
+	private WebElement EmailFriendButtton ;
+
+	public void OpenEmailFriendForm()
+	{
+		ClickButtons(EmailFriendButtton);
+	}
+
+
 }

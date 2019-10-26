@@ -8,6 +8,8 @@
 			<class name="tests.UserSearchForProductTestCase" />
 			<class name="tests.UserSearchForProductAutoTestCase" />
 			<class name="tests.ContactUsTestCase" />
+			<class name="tests.SendProductToriendTestCase" />
+			
 			
 
 
