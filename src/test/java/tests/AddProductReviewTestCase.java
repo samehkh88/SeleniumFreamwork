@@ -5,9 +5,9 @@ import static org.testng.Assert.assertEquals;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.EmailPage;
 import pages.HomePage;
 import pages.ProductdetalisPage;
+import pages.ReviewPage;
 import pages.SearchPage;
 import pages.UserloginPage;
 
@@ -19,12 +19,12 @@ public class AddProductReviewTestCase extends TestBase {
 	UserloginPage loginpage;
 	SearchPage search ;
 	ProductdetalisPage ProductDetalis;
-	EmailPage EmailToFriend ;
+	ReviewPage ReviewObject ;
 
 
 	// first check the user login or no
-	@Test(priority=1 , alwaysRun=true)
-	public void UserCanloginSuccessfully()
+	@Test(alwaysRun=true)
+	public void A_UserCanloginSuccessfully()
 	{
 
 		Home = new HomePage(driver);
@@ -43,8 +43,8 @@ public class AddProductReviewTestCase extends TestBase {
 
 
 	// search for the product
-	@Test(priority = 2)
-	public void UserCanSearchForProductSuccessfully()
+	@Test
+	public void B_UserCanSearchForProductSuccessfully()
 	{
 		search = new SearchPage(driver);
 		search.Searchforprodct(productname);
@@ -59,15 +59,15 @@ public class AddProductReviewTestCase extends TestBase {
 	}
 
 	//click send to friend
-	@Test(priority=3)
-	public void sendToFriend()
+	@Test
+	public void C_AddProductReviewReview()
 	{
 		ProductDetalis = new ProductdetalisPage(driver);
 		ProductDetalis.OpenAddReviewForm();
-		EmailToFriend = new EmailPage(driver);
-		EmailToFriend.SubmitContact("hero_88_2006@yahoo.com", "sameh@yahoo.com", "hello please check this product for me");
+		ReviewObject = new ReviewPage(driver);
+		ReviewObject.SubmitContact("good product", "Les options sont uniquement pour les 12-17 ans, uniquement pour la période mentionnée, uniquement pour le package All Inclusive");
 		try{
-			Assert.assertTrue(EmailToFriend.SuccesMessage.getText().equalsIgnoreCase("Your message has been sent."));
+			Assert.assertTrue(ReviewObject.SuccesMessage.getText().equalsIgnoreCase("Product review is successfully added."));
 		} catch(Exception e)
 		{
 			System.out.println("error message is : "+ e);
@@ -76,8 +76,8 @@ public class AddProductReviewTestCase extends TestBase {
 	
 	//user will log out
 	
-	@Test(priority=4)
-	public void UserLogOut()
+	@Test
+	public void D_UserLogOut()
 	{
 		Home.UserLogOut();
 	}

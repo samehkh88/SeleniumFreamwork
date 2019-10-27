@@ -23,8 +23,8 @@ public class SendProductToriendTestCase extends TestBase {
 
 
 	// first check the user login or no
-	@Test(priority=1 , alwaysRun=true)
-	public void UserCanloginSuccessfully()
+	@Test(alwaysRun=true)
+	public void A_UserCanloginSuccessfully()
 	{
 
 		Home = new HomePage(driver);
@@ -43,8 +43,8 @@ public class SendProductToriendTestCase extends TestBase {
 
 
 	// search for the product
-	@Test(priority = 2)
-	public void UserCanSearchForProductSuccessfully()
+	@Test
+	public void B_UserCanSearchForProductSuccessfully()
 	{
 		search = new SearchPage(driver);
 		search.Searchforprodct(productname);
@@ -59,8 +59,8 @@ public class SendProductToriendTestCase extends TestBase {
 	}
 
 	//click send to friend
-	@Test(priority=3)
-	public void sendToFriend()
+	@Test
+	public void C_sendToFriend()
 	{
 		ProductDetalis = new ProductdetalisPage(driver);
 		ProductDetalis.OpenEmailFriendForm();
@@ -76,8 +76,8 @@ public class SendProductToriendTestCase extends TestBase {
 	
 	//user will log out
 	
-	@Test(priority=4)
-	public void UserLogOut()
+	@Test
+	public void D_UserLogOut()
 	{
 		Home.UserLogOut();
 	}

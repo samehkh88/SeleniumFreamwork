@@ -17,7 +17,7 @@ public class UserRegisterTestCase extends TestBase{
 		Home.OpenRegisterPage();
 		
 		RegisterPage = new UserRegisterPage(driver);
-		RegisterPage.UserRegister("sameh", "Khalil", "5", "March", "sam2111@yahoo.com", "Test@123", "Test@123");
+		RegisterPage.UserRegister("sameh", "Khalil", "5", "March", "sam278@yahoo.com", "Test@123", "Test@123");
 		RegisterPage.AssertRegister();
 		
 		//user will log out

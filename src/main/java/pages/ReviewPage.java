@@ -26,10 +26,12 @@ public class ReviewPage extends PageBase{
 	@FindBy(xpath = "//div[@class='result']")
 	public WebElement SuccesMessage ;
 	
-	public void SubmitContact (String FriendMail , String Youremail , String message)
+	
+	
+	public void SubmitContact (String title , String message)
 	{
-		SendValue(Reviewtitle, FriendMail);
-		SendValue(Reviewtext, Youremail);
+		SendValue(Reviewtitle, title);
+		SendValue(Reviewtext, message);
 		ClickButtons(ReviewGood);
 		ClickButtons(SubmitReview);
 	}

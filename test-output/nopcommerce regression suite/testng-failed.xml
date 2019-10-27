@@ -4,14 +4,14 @@
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Regression Test(failed)">
     <classes>
-      <class name="tests.UserLoginTestCase">
+      <class name="tests.AddProductReviewTestCase">
         <methods>
+          <include name="UserCanloginSuccessfully"/>
           <include name="StopDriver"/>
           <include name="failtestcase"/>
-          <include name="UserCanloginSuccessfully"/>
           <include name="Startdriver"/>
         </methods>
-      </class> <!-- tests.UserLoginTestCase -->
+      </class> <!-- tests.AddProductReviewTestCase -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [nopcommerce regression suite] -->

@@ -1,58 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="14" total="19" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8733" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:30Z">
+  <suite name="nopcommerce regression suite" duration-ms="36415" started-at="2019-10-27T15:43:57Z" finished-at="2019-10-27T15:44:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8733" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:30Z">
-      <class name="tests.UserCanChangeCurrencyTestCase">
-        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="Startdriver" is-config="true" duration-ms="12298" started-at="2019-10-26T22:20:09Z" finished-at="2019-10-26T22:20:21Z">
+    <test name="Regression Test" duration-ms="36415" started-at="2019-10-27T15:43:57Z" finished-at="2019-10-27T15:44:33Z">
+      <class name="tests.UserSearchForProductAutoTestCase">
+        <test-method status="PASS" signature="UserCanSearchForProductAutoCompleteSuccessfully()[pri:0, instance:tests.UserSearchForProductAutoTestCase@1e88b3c]" name="UserCanSearchForProductAutoCompleteSuccessfully" duration-ms="4022" started-at="2019-10-27T15:44:25Z" finished-at="2019-10-27T15:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForProductAutoCompleteSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserSearchForProductAutoTestCase@1e88b3c]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-27T15:44:29Z" finished-at="2019-10-27T15:44:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[[TestResult name=UserCanSearchForProductAutoCompleteSuccessfully status=SUCCESS method=UserSearchForProductAutoTestCase.UserCanSearchForProductAutoCompleteSuccessfully()[pri:0, instance:tests.UserSearchForProductAutoTestCase@1e88b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestcase -->
+      </class> <!-- tests.UserSearchForProductAutoTestCase -->
+      <class name="tests.UserRegisterTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserRegisterTestCase@3e6fa38a]" name="Startdriver" is-config="true" duration-ms="45007" started-at="2019-10-27T15:43:12Z" finished-at="2019-10-27T15:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
-        <test-method status="PASS" signature="UserCanSearchForProductSuccessfully()[pri:1, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="UserCanSearchForProductSuccessfully" duration-ms="7119" started-at="2019-10-26T22:20:21Z" finished-at="2019-10-26T22:20:28Z">
+        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterTestCase@3e6fa38a]" name="UserCanReguisterSuccessfully" duration-ms="14893" started-at="2019-10-27T15:43:57Z" finished-at="2019-10-27T15:44:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanSearchForProductSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="16" started-at="2019-10-26T22:20:28Z" finished-at="2019-10-26T22:20:29Z">
+        </test-method> <!-- UserCanReguisterSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterTestCase@3e6fa38a]" name="failtestcase" is-config="true" duration-ms="2" started-at="2019-10-27T15:44:12Z" finished-at="2019-10-27T15:44:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserCanChangeCurrencyTestCase.UserCanSearchForProductSuccessfully()[pri:1, instance:tests.UserCanChangeCurrencyTestCase@14acaea5] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterTestCase.UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterTestCase@3e6fa38a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="UserChangeCurrency()[pri:2, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="UserChangeCurrency" duration-ms="1567" started-at="2019-10-26T22:20:29Z" finished-at="2019-10-26T22:20:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserChangeCurrency -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-26T22:20:30Z" finished-at="2019-10-26T22:20:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserChangeCurrency status=SUCCESS method=UserCanChangeCurrencyTestCase.UserChangeCurrency()[pri:2, instance:tests.UserCanChangeCurrencyTestCase@14acaea5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserCanChangeCurrencyTestCase@14acaea5]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-10-26T22:20:30Z" finished-at="2019-10-26T22:20:30Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserRegisterTestCase@3e6fa38a]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-10-27T15:44:34Z" finished-at="2019-10-27T15:44:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.UserCanChangeCurrencyTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.UserRegisterTestCase -->
+      <class name="tests.ContactUsTestCase">
+        <test-method status="PASS" signature="UserCanContactUs()[pri:0, instance:tests.ContactUsTestCase@42d80b78]" name="UserCanContactUs" duration-ms="4094" started-at="2019-10-27T15:44:29Z" finished-at="2019-10-27T15:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanContactUs -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTestCase@42d80b78]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-27T15:44:33Z" finished-at="2019-10-27T15:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanContactUs status=SUCCESS method=ContactUsTestCase.UserCanContactUs()[pri:0, instance:tests.ContactUsTestCase@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestcase -->
+      </class> <!-- tests.ContactUsTestCase -->
+      <class name="tests.UserSearchForProductTestCase">
+        <test-method status="PASS" signature="UserCanSearchForProductSuccessfully()[pri:0, instance:tests.UserSearchForProductTestCase@77caeb3e]" name="UserCanSearchForProductSuccessfully" duration-ms="6098" started-at="2019-10-27T15:44:19Z" finished-at="2019-10-27T15:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForProductSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserSearchForProductTestCase@77caeb3e]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-27T15:44:25Z" finished-at="2019-10-27T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserSearchForProductTestCase.UserCanSearchForProductSuccessfully()[pri:0, instance:tests.UserSearchForProductTestCase@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestcase -->
+      </class> <!-- tests.UserSearchForProductTestCase -->
+      <class name="tests.UserLoginTestCase">
+        <test-method status="PASS" signature="UserCanloginSuccessfully()[pri:0, instance:tests.UserLoginTestCase@66a3ffec]" name="UserCanloginSuccessfully" duration-ms="7238" started-at="2019-10-27T15:44:12Z" finished-at="2019-10-27T15:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanloginSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTestCase@66a3ffec]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-27T15:44:19Z" finished-at="2019-10-27T15:44:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanloginSuccessfully status=SUCCESS method=UserLoginTestCase.UserCanloginSuccessfully()[pri:0, instance:tests.UserLoginTestCase@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestcase -->
+      </class> <!-- tests.UserLoginTestCase -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce regression suite -->
 </testng-results>
