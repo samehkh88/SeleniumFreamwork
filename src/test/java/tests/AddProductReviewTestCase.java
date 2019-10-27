@@ -11,7 +11,7 @@ import pages.ProductdetalisPage;
 import pages.SearchPage;
 import pages.UserloginPage;
 
-public class SendProductToriendTestCase extends TestBase {
+public class AddProductReviewTestCase extends TestBase {
 
 	private String productname = "Apple MacBook Pro 13-inch";
 
@@ -63,7 +63,7 @@ public class SendProductToriendTestCase extends TestBase {
 	public void sendToFriend()
 	{
 		ProductDetalis = new ProductdetalisPage(driver);
-		ProductDetalis.OpenEmailFriendForm();
+		ProductDetalis.OpenAddReviewForm();
 		EmailToFriend = new EmailPage(driver);
 		EmailToFriend.SubmitContact("hero_88_2006@yahoo.com", "sameh@yahoo.com", "hello please check this product for me");
 		try{

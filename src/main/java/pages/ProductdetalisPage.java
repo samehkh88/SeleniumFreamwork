@@ -19,11 +19,19 @@ public class ProductdetalisPage extends PageBase{
 	@FindBy (xpath="//span[@itemprop='price']")
 	public WebElement ProductPrice ;
 	
+	@FindBy (linkText = "Add your review")
+	private WebElement addReview ;
+	
 	
 
 	public void OpenEmailFriendForm()
 	{
 		ClickButtons(EmailFriendButtton);
+	}
+	
+	public void OpenAddReviewForm()
+	{
+		ClickButtons(addReview);
 	}
 
 
