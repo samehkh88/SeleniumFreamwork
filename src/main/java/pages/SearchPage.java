@@ -25,8 +25,9 @@ public class SearchPage extends PageBase{
 	@FindBy(xpath = "//input[@value='Search']")
 	WebElement SearchButton;
 
-	@FindBy(linkText="Apple MacBook Pro 13-inch")
+	@FindBy(xpath="//h2[@class='product-title']/a")
 	WebElement productlink ;
+	
 
 
 
