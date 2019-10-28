@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce regression suite]">
-  <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Regression Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.AddProductReviewTestCase">
+      <class name="tests.CreateNewAddressTestCase">
         <methods>
-          <include name="UserCanloginSuccessfully"/>
           <include name="StopDriver"/>
+          <include name="YourAccount"/>
           <include name="failtestcase"/>
           <include name="Startdriver"/>
         </methods>
-      </class> <!-- tests.AddProductReviewTestCase -->
+      </class> <!-- tests.CreateNewAddressTestCase -->
     </classes>
-  </test> <!-- Regression Test(failed) -->
-</suite> <!-- Failed suite [nopcommerce regression suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

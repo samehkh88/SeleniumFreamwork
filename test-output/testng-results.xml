@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="14" total="29" passed="15">
   <reporter-output>
   </reporter-output>
@@ -201,12 +202,28 @@
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9454" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9454" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:59Z">
+      <class name="tests.CreateNewAddressTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="Startdriver" is-config="true" duration-ms="12636" started-at="2019-10-28T16:04:37Z" finished-at="2019-10-28T16:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+>>>>>>> 219aa595c220d7efad64ea85539f06cfac0f0835
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterTestCase@5e5792a0]" name="UserCanReguisterSuccessfully" duration-ms="4058" started-at="2019-10-27T19:50:52Z" finished-at="2019-10-27T19:50:56Z">
           <reporter-output>
           </reporter-output>
@@ -241,12 +258,24 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=UserCanContactUs status=SUCCESS method=ContactUsTestCase.UserCanContactUs()[pri:0, instance:tests.ContactUsTestCase@ae45eb6] output={null}]]]>
+=======
+        <test-method status="PASS" signature="UserCanloginSuccessfully()[pri:1, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="UserCanloginSuccessfully" duration-ms="4998" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanloginSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="28" started-at="2019-10-28T16:04:55Z" finished-at="2019-10-28T16:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanloginSuccessfully status=SUCCESS method=CreateNewAddressTestCase.UserCanloginSuccessfully()[pri:1, instance:tests.CreateNewAddressTestCase@3ffc5af1] output={null}]]]>
+>>>>>>> 219aa595c220d7efad64ea85539f06cfac0f0835
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="WaitAfterClass()[pri:0, instance:tests.ContactUsTestCase@ae45eb6]" name="WaitAfterClass" is-config="true" duration-ms="3001" started-at="2019-10-27T19:50:33Z" finished-at="2019-10-27T19:50:36Z">
           <reporter-output>
           </reporter-output>
@@ -266,12 +295,24 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserSearchForProductTestCase.UserCanSearchForProductSuccessfully()[pri:0, instance:tests.UserSearchForProductTestCase@3532ec19] output={null}]]]>
+=======
+        <test-method status="PASS" signature="YourAccount()[pri:2, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="YourAccount" duration-ms="4373" started-at="2019-10-28T16:04:55Z" finished-at="2019-10-28T16:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YourAccount -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-28T16:04:59Z" finished-at="2019-10-28T16:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=YourAccount status=SUCCESS method=CreateNewAddressTestCase.YourAccount()[pri:2, instance:tests.CreateNewAddressTestCase@3ffc5af1] output={null}]]]>
+>>>>>>> 219aa595c220d7efad64ea85539f06cfac0f0835
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
+<<<<<<< HEAD
       </class> <!-- tests.UserSearchForProductTestCase -->
       <class name="tests.UserLoginTestCase">
         <test-method status="PASS" signature="UserCanloginSuccessfully()[pri:0, instance:tests.UserLoginTestCase@26653222]" name="UserCanloginSuccessfully" duration-ms="2988" started-at="2019-10-27T19:50:46Z" finished-at="2019-10-27T19:50:49Z">
@@ -296,4 +337,13 @@
       </class> <!-- tests.UserLoginTestCase -->
     </test> <!-- Regression Test -->
   </suite> <!-- nopcommerce regression suite -->
+=======
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-10-28T16:04:59Z" finished-at="2019-10-28T16:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.CreateNewAddressTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> 219aa595c220d7efad64ea85539f06cfac0f0835
 </testng-results>
