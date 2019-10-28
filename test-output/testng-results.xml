@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8720" started-at="2019-10-28T14:30:57Z" finished-at="2019-10-28T14:31:05Z">
+  <suite name="Default suite" duration-ms="9454" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8720" started-at="2019-10-28T14:30:57Z" finished-at="2019-10-28T14:31:05Z">
-      <class name="tests.AddProductToCartTestCase">
-        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="Startdriver" is-config="true" duration-ms="23241" started-at="2019-10-28T14:30:33Z" finished-at="2019-10-28T14:30:57Z">
+    <test name="Default test" duration-ms="9454" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:59Z">
+      <class name="tests.CreateNewAddressTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="Startdriver" is-config="true" duration-ms="12636" started-at="2019-10-28T16:04:37Z" finished-at="2019-10-28T16:04:50Z">
           <params>
             <param index="0">
               <value>
@@ -18,41 +18,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
-        <test-method status="PASS" signature="UserCanSearchForProductSuccessfully()[pri:1, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="UserCanSearchForProductSuccessfully" duration-ms="7503" started-at="2019-10-28T14:30:57Z" finished-at="2019-10-28T14:31:04Z">
+        <test-method status="PASS" signature="UserCanloginSuccessfully()[pri:1, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="UserCanloginSuccessfully" duration-ms="4998" started-at="2019-10-28T16:04:50Z" finished-at="2019-10-28T16:04:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanSearchForProductSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-28T14:31:04Z" finished-at="2019-10-28T14:31:04Z">
+        </test-method> <!-- UserCanloginSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="28" started-at="2019-10-28T16:04:55Z" finished-at="2019-10-28T16:04:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=AddProductToCartTestCase.UserCanSearchForProductSuccessfully()[pri:1, instance:tests.AddProductToCartTestCase@3ffc5af1] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanloginSuccessfully status=SUCCESS method=CreateNewAddressTestCase.UserCanloginSuccessfully()[pri:1, instance:tests.CreateNewAddressTestCase@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="AddProductToCart()[pri:2, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="AddProductToCart" duration-ms="1183" started-at="2019-10-28T14:31:04Z" finished-at="2019-10-28T14:31:05Z">
+        <test-method status="PASS" signature="YourAccount()[pri:2, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="YourAccount" duration-ms="4373" started-at="2019-10-28T16:04:55Z" finished-at="2019-10-28T16:04:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddProductToCart -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-10-28T14:31:05Z" finished-at="2019-10-28T14:31:05Z">
+        </test-method> <!-- YourAccount -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-28T16:04:59Z" finished-at="2019-10-28T16:04:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddProductToCart status=SUCCESS method=AddProductToCartTestCase.AddProductToCart()[pri:2, instance:tests.AddProductToCartTestCase@3ffc5af1] output={null}]]]>
+                <![CDATA[[TestResult name=YourAccount status=SUCCESS method=CreateNewAddressTestCase.YourAccount()[pri:2, instance:tests.CreateNewAddressTestCase@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.AddProductToCartTestCase@3ffc5af1]" name="StopDriver" is-config="true" duration-ms="2" started-at="2019-10-28T14:31:05Z" finished-at="2019-10-28T14:31:05Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.CreateNewAddressTestCase@3ffc5af1]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-10-28T16:04:59Z" finished-at="2019-10-28T16:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.AddProductToCartTestCase -->
+      </class> <!-- tests.CreateNewAddressTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

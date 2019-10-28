@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.AddProductToCartTestCase">
+      <class name="tests.CreateNewAddressTestCase">
         <methods>
-          <include name="D_UserLogOut"/>
           <include name="StopDriver"/>
+          <include name="YourAccount"/>
           <include name="failtestcase"/>
-          <include name="UserCanSearchForProductSuccessfully"/>
-          <include name="AddProductToCart"/>
           <include name="Startdriver"/>
         </methods>
-      </class> <!-- tests.AddProductToCartTestCase -->
+      </class> <!-- tests.CreateNewAddressTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
