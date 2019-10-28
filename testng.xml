@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="nopcommerce regression suite">
 	<parameter name="browser" value="chrome" />
-	<test verbose="2" name="Regression Test" group-by-instances="true">
+		<test name="Regression Test" preserve-order="false">
 		<classes>
 			<class name="tests.UserRegisterTestCase" />
 			<class name="tests.UserLoginTestCase" />
@@ -11,7 +11,6 @@
 			<class name="tests.UserCanChangeCurrencyTestCase" />
 			<class name="tests.SendProductToriendTestCase" />
 			<class name="tests.AddProductReviewTestCase" />
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

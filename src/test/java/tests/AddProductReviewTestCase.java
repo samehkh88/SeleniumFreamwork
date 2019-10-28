@@ -23,8 +23,8 @@ public class AddProductReviewTestCase extends TestBase {
 
 
 	// first check the user login or no
-	@Test(alwaysRun=true)
-	public void A_UserCanloginSuccessfully()
+	@Test(priority = 1 ,alwaysRun=true)
+	public void UserCanloginSuccessfully()
 	{
 
 		Home = new HomePage(driver);
@@ -43,8 +43,8 @@ public class AddProductReviewTestCase extends TestBase {
 
 
 	// search for the product
-	@Test
-	public void B_UserCanSearchForProductSuccessfully()
+	@Test(priority=2)
+	public void UserCanSearchForProductSuccessfully()
 	{
 		search = new SearchPage(driver);
 		search.Searchforprodct(productname);
@@ -59,8 +59,8 @@ public class AddProductReviewTestCase extends TestBase {
 	}
 
 	//click send to friend
-	@Test
-	public void C_AddProductReviewReview()
+	@Test(priority =3)
+	public void AddProductReviewReview()
 	{
 		ProductDetalis = new ProductdetalisPage(driver);
 		ProductDetalis.OpenAddReviewForm();
@@ -76,8 +76,8 @@ public class AddProductReviewTestCase extends TestBase {
 	
 	//user will log out
 	
-	@Test
-	public void D_UserLogOut()
+	@Test(priority = 4)
+	public void UserLogOut()
 	{
 		Home.UserLogOut();
 	}

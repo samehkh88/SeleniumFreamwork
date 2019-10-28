@@ -22,6 +22,10 @@ public class ProductdetalisPage extends PageBase{
 	@FindBy (linkText = "Add your review")
 	private WebElement addReview ;
 	
+	@FindBy (id = "add-to-wishlist-button-1")
+	private WebElement AddToWishList ;
+	
+	
 	
 
 	public void OpenEmailFriendForm()
@@ -32,6 +36,11 @@ public class ProductdetalisPage extends PageBase{
 	public void OpenAddReviewForm()
 	{
 		ClickButtons(addReview);
+	}
+	
+	public void AddToWishList()
+	{
+		ClickButtons(AddToWishList);
 	}
 
 
