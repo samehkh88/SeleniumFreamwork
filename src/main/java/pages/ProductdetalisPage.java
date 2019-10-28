@@ -34,15 +34,12 @@ public class ProductdetalisPage extends PageBase{
 	@FindBy(xpath="//p[@class='content']")
 	public WebElement Successmessage;
 	
-<<<<<<< HEAD
+
 	@FindBy (id = "add-to-wishlist-button-1")
 	private WebElement AddToWishList ;
 	
-	
-=======
 	@FindBy(xpath="//span[@class='close']")
 	public WebElement SuccessmessageClosse;
->>>>>>> 219aa595c220d7efad64ea85539f06cfac0f0835
 	
 
 

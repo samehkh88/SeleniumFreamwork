@@ -50,6 +50,8 @@ public class CreateNewAddressTestCase extends TestBase {
 		Home.OpenMyAccount();
 		Myaccount.OpenMyAddress();
 		AccountAddress.ClickAddNewAddress();
+		AccountAddress.CreateNewAddress("sameh", "khalil", "sameh@yahoo.com", "cairo", "61 al ades al sharif ", "Egypt", "65874" , "01004652956");
+		
 	}
 
 

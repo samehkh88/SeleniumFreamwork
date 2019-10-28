@@ -19,7 +19,7 @@ public class UserLoginTestCase extends TestBase{
 		Home.OpenLoginPage();
 		
 		loginpage = new UserloginPage(driver);
-		loginpage.UserCanLogin("sam2111@yahoo.com", "Test@123");
+		loginpage.UserCanLogin("sam2111@yahoo.com", "Test@123111");
 		assertEquals("Log out", Home.logOutLink.getText());
 		
 		//user will log out

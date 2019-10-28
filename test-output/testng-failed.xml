@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CreateNewAddressTestCase">
+      <class name="tests.UserLoginTestCase">
         <methods>
           <include name="StopDriver"/>
-          <include name="YourAccount"/>
+          <include name="WaitAfterClass"/>
           <include name="failtestcase"/>
+          <include name="UserCanloginSuccessfully"/>
           <include name="Startdriver"/>
         </methods>
-      </class> <!-- tests.CreateNewAddressTestCase -->
+      </class> <!-- tests.UserLoginTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
