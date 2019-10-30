@@ -8,7 +8,7 @@ import java.util.Properties;
 public class LoadPropertise {
 
 	
-	public static Properties user = getPropValues(System.getProperty(("user.dir")+"\\src\\main\\java\\propertise\\userdata.propertise"));
+	public static Properties user = getPropValues(System.getProperty("user.dir")+"\\src\\main\\java\\propertise\\userdata.propertise");
 	
 	private static  Properties getPropValues(String path)
 	{
@@ -23,12 +23,12 @@ public class LoadPropertise {
 	} catch (FileNotFoundException e) {
 		System.out.println("the Error message is" + e);
 	} catch (IOException e) {
-		e.printStackTrace();
+		System.out.println("the Error message is" + e);
+	}catch (NullPointerException e) {
+		System.out.println("the Error message is" + e);
 	}
 	
-	
 	return prop;
-	
 	
 }
 }

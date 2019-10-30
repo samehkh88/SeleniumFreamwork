@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.UserLoginTestCase">
+      <class name="tests.UserRegisterWith_DTT_PropertiseTestCase">
         <methods>
           <include name="StopDriver"/>
           <include name="WaitAfterClass"/>
           <include name="failtestcase"/>
-          <include name="UserCanloginSuccessfully"/>
           <include name="Startdriver"/>
+          <include name="UserCanReguisterSuccessfully"/>
         </methods>
-      </class> <!-- tests.UserLoginTestCase -->
+      </class> <!-- tests.UserRegisterWith_DTT_PropertiseTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

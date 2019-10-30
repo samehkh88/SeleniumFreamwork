@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5877" started-at="2019-10-29T20:29:09Z" finished-at="2019-10-29T20:29:15Z">
+  <suite name="Default suite" duration-ms="9047" started-at="2019-10-30T11:00:34Z" finished-at="2019-10-30T11:00:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5877" started-at="2019-10-29T20:29:09Z" finished-at="2019-10-29T20:29:15Z">
-      <class name="tests.ContactUsTestCase">
-        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.ContactUsTestCase@59fa1d9b]" name="Startdriver" is-config="true" duration-ms="12986" started-at="2019-10-29T20:28:56Z" finished-at="2019-10-29T20:29:09Z">
+    <test name="Default test" duration-ms="9047" started-at="2019-10-30T11:00:34Z" finished-at="2019-10-30T11:00:43Z">
+      <class name="tests.UserRegisterWith_DTT_PropertiseTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0]" name="Startdriver" is-config="true" duration-ms="10056" started-at="2019-10-30T11:00:24Z" finished-at="2019-10-30T11:00:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,47 +18,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
-        <test-method status="PASS" signature="UserCanContactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ContactUsTestCase@59fa1d9b]" name="UserCanContactUs" duration-ms="2846" started-at="2019-10-29T20:29:09Z" data-provider="contactdata" finished-at="2019-10-29T20:29:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[meena Antoun]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mena@yahoo.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[hello this is my first task and i learn a lot]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0]" name="UserCanReguisterSuccessfully" duration-ms="6010" started-at="2019-10-30T11:00:34Z" finished-at="2019-10-30T11:00:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanContactUs -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTestCase@59fa1d9b]" name="failtestcase" is-config="true" duration-ms="1" started-at="2019-10-29T20:29:12Z" finished-at="2019-10-29T20:29:12Z">
+        </test-method> <!-- UserCanReguisterSuccessfully -->
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0]" name="failtestcase" is-config="true" duration-ms="2" started-at="2019-10-30T11:00:40Z" finished-at="2019-10-30T11:00:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanContactUs status=SUCCESS method=ContactUsTestCase.UserCanContactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ContactUsTestCase@59fa1d9b] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterWith_DTT_PropertiseTestCase.UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="WaitAfterClass()[pri:0, instance:tests.ContactUsTestCase@59fa1d9b]" name="WaitAfterClass" is-config="true" duration-ms="3001" started-at="2019-10-29T20:29:12Z" finished-at="2019-10-29T20:29:15Z">
+        <test-method status="PASS" signature="WaitAfterClass()[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0]" name="WaitAfterClass" is-config="true" duration-ms="3001" started-at="2019-10-30T11:00:40Z" finished-at="2019-10-30T11:00:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WaitAfterClass -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.ContactUsTestCase@59fa1d9b]" name="StopDriver" is-config="true" duration-ms="0" started-at="2019-10-29T20:29:15Z" finished-at="2019-10-29T20:29:15Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserRegisterWith_DTT_PropertiseTestCase@5e5792a0]" name="StopDriver" is-config="true" duration-ms="0" started-at="2019-10-30T11:00:43Z" finished-at="2019-10-30T11:00:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.ContactUsTestCase -->
+      </class> <!-- tests.UserRegisterWith_DTT_PropertiseTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

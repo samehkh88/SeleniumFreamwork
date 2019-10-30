@@ -30,7 +30,7 @@ public class AddProductReviewTestCase extends TestBase {
 		Home = new HomePage(driver);
 		Home.OpenLoginPage();
 		loginpage = new UserloginPage(driver);
-		loginpage.UserCanLogin("sam2111@yahoo.com", "Test@123");
+		loginpage.UserCanLogin("meena@yahoo.com", "123456789");
 		try{
 			assertEquals("Log out", Home.logOutLink.getText());
 		} catch(Exception e)
