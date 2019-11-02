@@ -58,6 +58,21 @@ public class UserRegisterPage extends PageBase{
 		ClickButtons(RegisterButton);
 	}
 
+	public void UserRegister2(String fname , String Lname , String month , String email , String pass , String Confirmpass  )
+	{
+
+		ClickButtons(Gender);
+		SendValue(FirstName, fname);
+		SendValue(LastName, Lname);
+		SelectFromDrobDown(MonthofBirth, month);
+
+		SendValue(Email, email);
+		SendValue(Password, pass);
+		SendValue(ConfirmPassword, Confirmpass);
+		ClickButtons(RegisterButton);
+	}
+
+	
 	public void AssertRegister()
 	{
 		Assert.assertEquals("Your registration completed", Result.getText());
