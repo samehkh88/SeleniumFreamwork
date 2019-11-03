@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14942" started-at="2019-11-02T19:41:34Z" finished-at="2019-11-02T19:41:49Z">
+  <suite name="Default suite" duration-ms="18306" started-at="2019-11-03T09:38:56Z" finished-at="2019-11-03T09:39:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14942" started-at="2019-11-02T19:41:34Z" finished-at="2019-11-02T19:41:49Z">
-      <class name="tests.UserRegisterWith_DTT_ExlFileTestCase">
-        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="Startdriver" is-config="true" duration-ms="11616" started-at="2019-11-02T19:41:23Z" finished-at="2019-11-02T19:41:34Z">
+    <test name="Default test" duration-ms="18306" started-at="2019-11-03T09:38:56Z" finished-at="2019-11-03T09:39:14Z">
+      <class name="tests.UserRegisterWith_DTT_CSVTestCase">
+        <test-method status="PASS" signature="Startdriver(java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d]" name="Startdriver" is-config="true" duration-ms="14561" started-at="2019-11-03T09:38:41Z" finished-at="2019-11-03T09:38:56Z">
           <params>
             <param index="0">
               <value>
@@ -18,109 +18,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdriver -->
-        <test-method status="PASS" signature="UserCanReguisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="UserCanReguisterSuccessfully" duration-ms="6481" started-at="2019-11-02T19:41:35Z" data-provider="registerdata" finished-at="2019-11-02T19:41:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mark]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bahig]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[mark11@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d]" name="UserCanReguisterSuccessfully" duration-ms="15271" started-at="2019-11-03T09:38:56Z" finished-at="2019-11-03T09:39:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanReguisterSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-11-02T19:41:42Z" finished-at="2019-11-02T19:41:42Z">
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d]" name="failtestcase" is-config="true" duration-ms="2" started-at="2019-11-03T09:39:11Z" finished-at="2019-11-03T09:39:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterWith_DTT_ExlFileTestCase.UserCanReguisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterWith_DTT_CSVTestCase.UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="UserCanReguisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="UserCanReguisterSuccessfully" duration-ms="4729" started-at="2019-11-02T19:41:42Z" data-provider="registerdata" finished-at="2019-11-02T19:41:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hisham]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ahmed]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[April]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[hisham11@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanReguisterSuccessfully -->
-        <test-method status="PASS" signature="WaitAfterClass()[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="WaitAfterClass" is-config="true" duration-ms="3008" started-at="2019-11-02T19:41:46Z" finished-at="2019-11-02T19:41:49Z">
+        <test-method status="PASS" signature="WaitAfterClass()[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d]" name="WaitAfterClass" is-config="true" duration-ms="3001" started-at="2019-11-03T09:39:11Z" finished-at="2019-11-03T09:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WaitAfterClass -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="failtestcase" is-config="true" duration-ms="0" started-at="2019-11-02T19:41:46Z" finished-at="2019-11-02T19:41:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterWith_DTT_ExlFileTestCase.UserCanReguisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserRegisterWith_DTT_ExlFileTestCase@47c62251]" name="StopDriver" is-config="true" duration-ms="0" started-at="2019-11-02T19:41:49Z" finished-at="2019-11-02T19:41:49Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.UserRegisterWith_DTT_CSVTestCase@343f4d3d]" name="StopDriver" is-config="true" duration-ms="1" started-at="2019-11-03T09:39:14Z" finished-at="2019-11-03T09:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.UserRegisterWith_DTT_ExlFileTestCase -->
+      </class> <!-- tests.UserRegisterWith_DTT_CSVTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
