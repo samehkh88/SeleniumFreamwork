@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.UserRegisterWith_DTT_CSVTestCase">
+      <class name="tests.CheckOutTestCase">
         <methods>
           <include name="StopDriver"/>
-          <include name="UserCanReguisterSuccessfully"/>
+          <include name="AddProductToCart"/>
+          <include name="UserCanGoToCheckoutSuccessfully"/>
           <include name="WaitAfterClass"/>
           <include name="failtestcase"/>
           <include name="Startdriver"/>
         </methods>
-      </class> <!-- tests.UserRegisterWith_DTT_CSVTestCase -->
+      </class> <!-- tests.CheckOutTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,10 +25,10 @@ public class ProductdetalisPage extends PageBase{
 	@FindBy(id="product_attribute_3_6")
 	private WebElement OptionHDD;
 
-	@FindBy(id="addtocart_1_EnteredQuantity")
+	@FindBy(xpath="//input[starts-with(@id,'addtocart_')]")
 	private WebElement QYTField;
 
-	@FindBy(id="add-to-cart-button-1")
+	@FindBy(id="add-to-cart-button-4")
 	private WebElement AddToCartButton;
 	
 	@FindBy(xpath="//p[@class='content']")
@@ -74,6 +74,7 @@ public class ProductdetalisPage extends PageBase{
 	public void AddTOCart()
 	{
 		ClickButtons(AddToCartButton);
+		
 	}
 	
 	public void CloseSuccessMessage()
