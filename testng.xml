@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="nopcommerce regression suite">
 	<parameter name="browser" value="chrome" />
-		<test name="general Test" preserve-order="false">
+	<test name="general Test" preserve-order="false">
 		<classes>
 			<class name="tests.UserRegisterTestCase" />
 			<class name="tests.UserLoginTestCase" />
