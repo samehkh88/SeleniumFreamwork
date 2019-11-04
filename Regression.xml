@@ -1,16 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="nopcommerce regression suite">
+<suite name="Regression Suite">
 	<parameter name="browser" value="chrome" />
-		<test name="general Test" preserve-order="false">
+	<test name="Regression Test" preserve-order="false">
 		<classes>
-			<class name="tests.UserRegisterTestCase" />
-			<class name="tests.UserLoginTestCase" />
+			<class name="tests.UserRegisterWithJavaFakerTestCase" />
 			<class name="tests.UserSearchForProductTestCase" />
 			<class name="tests.UserSearchForProductAutoTestCase" />
 			<class name="tests.ContactUsTestCase" />
 			<class name="tests.UserCanChangeCurrencyTestCase" />
-			<class name="tests.SendProductToriendTestCase" />
-			<class name="tests.AddProductReviewTestCase" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
