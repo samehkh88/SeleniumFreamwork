@@ -117,12 +117,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="tests.UserCanChangeCurrencyTestCase" hash-for-method="UserCanSearchForProductSuccessfully">UserCanSearchForProductSuccessfully</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="tests.UserSearchForProductTestCase" hash-for-method="UserCanSearchForProductSuccessfully">UserCanSearchForProductSuccessfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="tests.UserSearchForProductTestCase" hash-for-method="UserCanSearchForProductSuccessfully">UserCanSearchForProductSuccessfully</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="tests.UserCanChangeCurrencyTestCase" hash-for-method="UserCanSearchForProductSuccessfully">UserCanSearchForProductSuccessfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,21 +153,6 @@
                   <a name="UserCanSearchForProductSuccessfully">
                   </a> <!-- UserCanSearchForProductSuccessfully -->
                   <span class="method-name">UserCanSearchForProductSuccessfully</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-passed -->
-          <div class="suite-Regression_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.ContactUsTestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="UserCanContactUs">
-                  </a> <!-- UserCanContactUs -->
-                  <span class="method-name">UserCanContactUs</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,6 +197,21 @@
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.ContactUsTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanContactUs">
+                  </a> <!-- UserCanContactUs -->
+                  <span class="method-name">UserCanContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.UserRegisterWithJavaFakerTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -234,7 +234,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;chrome-headless&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;phantomJS&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.UserRegisterWithJavaFakerTestCase&quot;/&gt;
@@ -283,34 +283,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UserCanReguisterSuccessfully')
-data.setCell(0, 2, 'tests.UserRegisterWithJavaFakerTestCase')
-data.setCell(0, 3, 5905);
+data.setCell(0, 1, 'UserCanSearchForProductSuccessfully')
+data.setCell(0, 2, 'tests.UserCanChangeCurrencyTestCase')
+data.setCell(0, 3, 7132);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'UserCanContactUs')
 data.setCell(1, 2, 'tests.ContactUsTestCase')
-data.setCell(1, 3, 4285);
+data.setCell(1, 3, 6962);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'UserCanSearchForProductAutoCompleteSuccessfully')
 data.setCell(2, 2, 'tests.UserSearchForProductAutoTestCase')
-data.setCell(2, 3, 3596);
+data.setCell(2, 3, 5617);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'UserCanSearchForProductSuccessfully')
-data.setCell(3, 2, 'tests.UserCanChangeCurrencyTestCase')
-data.setCell(3, 3, 2966);
+data.setCell(3, 2, 'tests.UserSearchForProductTestCase')
+data.setCell(3, 3, 5589);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'UserChangeCurrency')
-data.setCell(4, 2, 'tests.UserCanChangeCurrencyTestCase')
-data.setCell(4, 3, 2115);
+data.setCell(4, 1, 'UserCanReguisterSuccessfully')
+data.setCell(4, 2, 'tests.UserRegisterWithJavaFakerTestCase')
+data.setCell(4, 3, 5494);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'UserCanSearchForProductSuccessfully')
-data.setCell(5, 2, 'tests.UserSearchForProductTestCase')
-data.setCell(5, 3, 1994);
+data.setCell(5, 1, 'UserChangeCurrency')
+data.setCell(5, 2, 'tests.UserCanChangeCurrencyTestCase')
+data.setCell(5, 3, 1762);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -338,15 +338,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.ContactUsTestCase</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">StopDriver</span>
-                <br/>
-                <span class="ignored-method-name">Startdriver</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">tests.UserCanChangeCurrencyTestCase</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">StopDriver</span>
@@ -364,6 +355,15 @@ return data;
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ContactUsTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+                <span class="ignored-method-name">Startdriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Regression_Suite" class="panel">
@@ -374,7 +374,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserRegisterWithJavaFakerTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">Startdriver(chrome-headless)</span>
+                <span class="method-name">Startdriver(phantomJS)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
@@ -382,90 +382,90 @@ return data;
               <div class="chronological-class-name">tests.ContactUsTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UserCanContactUs</span>
-                <span class="method-start">16399 ms</span>
+                <span class="method-start">24048 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanContactUs status=SUCCESS method=ContactUsTestCase.UserCanContactUs()[pri:0, ...)</span>
-                <span class="method-start">20687 ms</span>
+                <span class="method-start">31013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">WaitAfterClass</span>
-                <span class="method-start">20689 ms</span>
+                <span class="method-start">31014 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserRegisterWithJavaFakerTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UserCanReguisterSuccessfully</span>
-                <span class="method-start">23689 ms</span>
+                <span class="method-start">33016 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterWithJavaFakerTestCas...)</span>
-                <span class="method-start">29596 ms</span>
+                <span class="method-start">38512 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">WaitAfterClass</span>
-                <span class="method-start">29597 ms</span>
+                <span class="method-start">38514 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserSearchForProductAutoTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UserCanSearchForProductAutoCompleteSuccessfully</span>
-                <span class="method-start">32598 ms</span>
+                <span class="method-start">40515 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanSearchForProductAutoCompleteSuccessfully status=SUCCESS method=UserSearchFor...)</span>
-                <span class="method-start">36197 ms</span>
+                <span class="method-start">46134 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">WaitAfterClass</span>
-                <span class="method-start">36197 ms</span>
+                <span class="method-start">46135 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserSearchForProductTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UserCanSearchForProductSuccessfully</span>
-                <span class="method-start">39199 ms</span>
+                <span class="method-start">48137 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserSearchForProductTestC...)</span>
-                <span class="method-start">41194 ms</span>
+                <span class="method-start">53728 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">WaitAfterClass</span>
-                <span class="method-start">41194 ms</span>
+                <span class="method-start">53729 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserCanChangeCurrencyTestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UserCanSearchForProductSuccessfully</span>
-                <span class="method-start">44198 ms</span>
+                <span class="method-start">55731 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanSearchForProductSuccessfully status=SUCCESS method=UserCanChangeCurrencyTest...)</span>
-                <span class="method-start">47165 ms</span>
+                <span class="method-start">62864 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">UserChangeCurrency</span>
-                <span class="method-start">47166 ms</span>
+                <span class="method-start">62865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserChangeCurrency status=SUCCESS method=UserCanChangeCurrencyTestCase.UserChangeCu...)</span>
-                <span class="method-start">49282 ms</span>
+                <span class="method-start">64629 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">WaitAfterClass</span>
-                <span class="method-start">49283 ms</span>
+                <span class="method-start">64629 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserRegisterWithJavaFakerTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">StopDriver</span>
-                <span class="method-start">52365 ms</span>
+                <span class="method-start">67172 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
