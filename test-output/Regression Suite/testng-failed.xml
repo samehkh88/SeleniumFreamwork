@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <parameter name="browser" value="phantomJS"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.UserCanChangeCurrencyTestCase">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="UserCanSearchForProductSuccessfully"/>
+          <include name="WaitAfterClass"/>
+          <include name="failtestcase"/>
+          <include name="UserChangeCurrency"/>
+          <include name="Startdriver"/>
+        </methods>
+      </class> <!-- tests.UserCanChangeCurrencyTestCase -->
+      <class name="tests.UserRegisterWithJavaFakerTestCase">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="WaitAfterClass"/>
+          <include name="failtestcase"/>
+          <include name="UserCanReguisterSuccessfully"/>
+          <include name="Startdriver"/>
+        </methods>
+      </class> <!-- tests.UserRegisterWithJavaFakerTestCase -->
+      <class name="tests.UserSearchForProductAutoTestCase">
+        <methods>
+          <include name="UserCanSearchForProductAutoCompleteSuccessfully"/>
+          <include name="StopDriver"/>
+          <include name="WaitAfterClass"/>
+          <include name="failtestcase"/>
+          <include name="Startdriver"/>
+        </methods>
+      </class> <!-- tests.UserSearchForProductAutoTestCase -->
+      <class name="tests.ContactUsTestCase">
+        <methods>
+          <include name="UserCanContactUs"/>
+          <include name="StopDriver"/>
+          <include name="WaitAfterClass"/>
+          <include name="failtestcase"/>
+          <include name="Startdriver"/>
+        </methods>
+      </class> <!-- tests.ContactUsTestCase -->
+      <class name="tests.UserSearchForProductTestCase">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="WaitAfterClass"/>
+          <include name="failtestcase"/>
+          <include name="UserCanSearchForProductSuccessfully"/>
+          <include name="Startdriver"/>
+        </methods>
+      </class> <!-- tests.UserSearchForProductTestCase -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

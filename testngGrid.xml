@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="nopcommerce regression suite" parallel = "tests" thread-count="2">
+	
+	<test name="general chrome Test" preserve-order="false" >
+	<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="tests.UserRegisterParralWithJavaFakerTestCase" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="general firefox Test" preserve-order="false">
+	<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="tests.UserRegisterParralWithJavaFakerTestCase" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->

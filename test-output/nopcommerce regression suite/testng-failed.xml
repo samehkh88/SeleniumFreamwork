@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce regression suite]">
-  <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Regression Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce regression suite]" parallel="tests">
+  <test thread-count="2" name="general chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.AddProductReviewTestCase">
+      <class name="tests.UserRegisterParralWithJavaFakerTestCase">
         <methods>
-          <include name="UserCanloginSuccessfully"/>
-          <include name="StopDriver"/>
-          <include name="failtestcase"/>
           <include name="Startdriver"/>
+          <include name="failtestcase"/>
+          <include name="UserCanReguisterSuccessfully"/>
+          <include name="StopDriver"/>
         </methods>
-      </class> <!-- tests.AddProductReviewTestCase -->
+      </class> <!-- tests.UserRegisterParralWithJavaFakerTestCase -->
     </classes>
-  </test> <!-- Regression Test(failed) -->
+  </test> <!-- general chrome Test(failed) -->
+  <test thread-count="2" name="general firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.UserRegisterParralWithJavaFakerTestCase">
+        <methods>
+          <include name="Startdriver"/>
+          <include name="failtestcase"/>
+          <include name="UserCanReguisterSuccessfully"/>
+          <include name="StopDriver"/>
+        </methods>
+      </class> <!-- tests.UserRegisterParralWithJavaFakerTestCase -->
+    </classes>
+  </test> <!-- general firefox Test(failed) -->
 </suite> <!-- Failed suite [nopcommerce regression suite] -->
