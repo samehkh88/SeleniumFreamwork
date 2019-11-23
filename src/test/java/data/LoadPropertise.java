@@ -9,6 +9,7 @@ public class LoadPropertise {
 
 	
 	public static Properties user = getPropValues(System.getProperty("user.dir")+"\\src\\main\\java\\propertise\\userdata.propertise");
+	public static Properties Sauceuser = getPropValues(System.getProperty("user.dir")+"\\src\\main\\java\\propertise\\Saucelabs.propertise");
 	
 	private static  Properties getPropValues(String path)
 	{
