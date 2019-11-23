@@ -161,7 +161,9 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- general chrome Test --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;general firefox Test&quot; parallel=&quot;tests&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;67.0&quot;/&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Windows 10&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.UserRegisterParralWithJavaFakerTestCase&quot;/&gt;
     &lt;/classes&gt;
@@ -210,16 +212,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'UserCanReguisterSuccessfully')
 data.setCell(0, 2, 'tests.UserRegisterParralWithJavaFakerTestCase')
-data.setCell(0, 3, 10036);
+data.setCell(0, 3, 11524);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'UserCanReguisterSuccessfully')
 data.setCell(1, 2, 'tests.UserRegisterParralWithJavaFakerTestCase')
-data.setCell(1, 3, 9291);
+data.setCell(1, 3, 11106);
 window.suiteTableData['nopcommerce_regression_suite']= { tableData: data, tableDiv: 'times-div-nopcommerce_regression_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-nopcommerce_regression_suite">
               </div> <!-- times-div-nopcommerce_regression_suite -->
             </div> <!-- times-div -->
@@ -247,36 +249,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UserRegisterParralWithJavaFakerTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">startGrid(firefox)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
                 <span class="method-name">startGrid(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startGrid(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserCanReguisterSuccessfully</span>
-                <span class="method-start">16077 ms</span>
+                <span class="method-start">6076 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">UserCanReguisterSuccessfully</span>
-                <span class="method-start">17145 ms</span>
+                <span class="method-start">11491 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failtestcase([TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterParralWithJavaFakerT...)</span>
-                <span class="method-start">26118 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">failtestcase([TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterParralWithJavaFakerT...)</span>
-                <span class="method-start">26438 ms</span>
+                <span class="method-start">17182 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">exitDriver</span>
-                <span class="method-start">29292 ms</span>
+                <span class="method-start">19336 ms</span>
               </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">failtestcase([TestResult name=UserCanReguisterSuccessfully status=SUCCESS method=UserRegisterParralWithJavaFakerT...)</span>
+                <span class="method-start">23015 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">exitDriver</span>
-                <span class="method-start">29356 ms</span>
+                <span class="method-start">26517 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

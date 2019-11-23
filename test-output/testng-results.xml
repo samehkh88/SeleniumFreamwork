@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="nopcommerce regression suite" duration-ms="34589" started-at="2019-11-15T20:16:43Z" finished-at="2019-11-15T20:17:18Z">
+  <suite name="nopcommerce regression suite" duration-ms="26802" started-at="2019-11-23T23:00:00Z" finished-at="2019-11-23T23:00:27Z">
     <groups>
     </groups>
-    <test name="general chrome Test" duration-ms="29901" started-at="2019-11-15T20:16:43Z" finished-at="2019-11-15T20:17:13Z">
+    <test name="general chrome Test" duration-ms="19568" started-at="2019-11-23T23:00:00Z" finished-at="2019-11-23T23:00:19Z">
       <class name="tests.UserRegisterParralWithJavaFakerTestCase">
-        <test-method status="PASS" signature="startGrid(java.lang.String)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="startGrid" is-config="true" duration-ms="16062" started-at="2019-11-15T20:16:43Z" finished-at="2019-11-15T20:16:59Z">
+        <test-method status="PASS" signature="startGrid(java.lang.String)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="startGrid" is-config="true" duration-ms="6076" started-at="2019-11-23T23:00:00Z" finished-at="2019-11-23T23:00:06Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startGrid -->
-        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="UserCanReguisterSuccessfully" duration-ms="10036" started-at="2019-11-15T20:16:59Z" finished-at="2019-11-15T20:17:09Z">
+        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="UserCanReguisterSuccessfully" duration-ms="11106" started-at="2019-11-23T23:00:06Z" finished-at="2019-11-23T23:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanReguisterSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="failtestcase" is-config="true" duration-ms="3174" started-at="2019-11-15T20:17:09Z" finished-at="2019-11-15T20:17:13Z">
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="failtestcase" is-config="true" duration-ms="2154" started-at="2019-11-23T23:00:17Z" finished-at="2019-11-23T23:00:19Z">
           <params>
             <param index="0">
               <value>
@@ -33,15 +33,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="exitDriver()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="exitDriver" is-config="true" duration-ms="579" started-at="2019-11-15T20:17:13Z" finished-at="2019-11-15T20:17:13Z">
+        <test-method status="PASS" signature="exitDriver()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2003edf]" name="exitDriver" is-config="true" duration-ms="216" started-at="2019-11-23T23:00:19Z" finished-at="2019-11-23T23:00:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitDriver -->
       </class> <!-- tests.UserRegisterParralWithJavaFakerTestCase -->
     </test> <!-- general chrome Test -->
-    <test name="general firefox Test" duration-ms="34589" started-at="2019-11-15T20:16:43Z" finished-at="2019-11-15T20:17:18Z">
+    <test name="general firefox Test" duration-ms="26802" started-at="2019-11-23T23:00:00Z" finished-at="2019-11-23T23:00:27Z">
       <class name="tests.UserRegisterParralWithJavaFakerTestCase">
-        <test-method status="PASS" signature="startGrid(java.lang.String)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="startGrid" is-config="true" duration-ms="17145" started-at="2019-11-15T20:16:43Z" finished-at="2019-11-15T20:17:00Z">
+        <test-method status="PASS" signature="startGrid(java.lang.String)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="startGrid" is-config="true" duration-ms="11491" started-at="2019-11-23T23:00:00Z" finished-at="2019-11-23T23:00:11Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startGrid -->
-        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="UserCanReguisterSuccessfully" duration-ms="9291" started-at="2019-11-15T20:17:00Z" finished-at="2019-11-15T20:17:10Z">
+        <test-method status="PASS" signature="UserCanReguisterSuccessfully()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="UserCanReguisterSuccessfully" duration-ms="11524" started-at="2019-11-23T23:00:11Z" finished-at="2019-11-23T23:00:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanReguisterSuccessfully -->
-        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="failtestcase" is-config="true" duration-ms="2918" started-at="2019-11-15T20:17:10Z" finished-at="2019-11-15T20:17:13Z">
+        <test-method status="PASS" signature="failtestcase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="failtestcase" is-config="true" duration-ms="3501" started-at="2019-11-23T23:00:23Z" finished-at="2019-11-23T23:00:26Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtestcase -->
-        <test-method status="PASS" signature="exitDriver()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="exitDriver" is-config="true" duration-ms="5218" started-at="2019-11-15T20:17:13Z" finished-at="2019-11-15T20:17:18Z">
+        <test-method status="PASS" signature="exitDriver()[pri:0, instance:tests.UserRegisterParralWithJavaFakerTestCase@2203fa4c]" name="exitDriver" is-config="true" duration-ms="269" started-at="2019-11-23T23:00:26Z" finished-at="2019-11-23T23:00:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitDriver -->
